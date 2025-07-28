@@ -119,7 +119,7 @@ def split_messages(messages, limit=4000):
 
 # ▶️ Запуск бота
 def main():
-    TOKEN = "7575947696:AAEAuezyu_AEnpG2IMCPXFk6i_lW9zAos1w"
+    TOKEN = "YOUR_TOKEN_TG"
 
     app = Application.builder().token(TOKEN).build()
     app.add_handler(CommandHandler("start", start))
